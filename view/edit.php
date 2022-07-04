@@ -15,7 +15,7 @@ if($_SERVER["REQUEST_METHOD"] === "GET" && isset($_GET["id"]))
                 $state = $row['state'];
                 $category = $row['category'];
             }
-            require_once 'header_admin.php';
+            require_once 'header.php';
             echo "<div class='container'>
                 <h3>Редактирование задачи</h3>
                 <form method='post'>
